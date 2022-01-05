@@ -3,18 +3,33 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - 2abtpsarl',
-    title: '2abtpsarl',
+    titleTemplate: '%s ',
+    title: '2A BTP sarl',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'fr',
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+    meta: [{
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: "site vitrine de l'entreprise 2A BTP sarl basé a sannois dans le 95 "
+      },
+      {
+        name: 'format-detection',
+        content: 'telephone=no'
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -50,7 +65,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
