@@ -35,8 +35,8 @@
       </v-container>
     </v-main>
 
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}-2A BTP Sarl </span>
+    <v-footer class="justify-center" :absolute="!fixed" app>
+      <span>&copy; {{ new Date().getFullYear() }} - BTP Sarl </span>
     </v-footer>
   </v-app>
 </template>
@@ -69,7 +69,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'LOGO 2A BTP SARl',
+      title: 'LOGO BTP SARl',
     }
   },
 }

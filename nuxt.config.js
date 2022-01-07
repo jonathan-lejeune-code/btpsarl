@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s ',
-    title: '2A BTP sarl',
+    title: 'BTP sarl',
     htmlAttrs: {
       lang: 'fr',
     },

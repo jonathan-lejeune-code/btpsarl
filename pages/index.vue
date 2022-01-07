@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1>bienvenue sur le site 2A BTP SARl</h1>
+    <h1>bienvenue sur le site BTP SARl</h1>
     <v-row>
       <v-col cols="12" class="mt-15">
         <v-carousel
