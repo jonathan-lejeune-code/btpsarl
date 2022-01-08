@@ -18,12 +18,17 @@
         </v-carousel>
       </v-col>
     </v-row>
+    <ServiceIndex />
   </v-container>
 </template>
 
 <script>
+import ServiceIndex from '../components/ServiceIndex'
 export default {
   name: 'IndexPage',
+  components: {
+    ServiceIndex,
+  },
 
   data: () => ({
     items: [
