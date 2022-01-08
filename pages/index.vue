@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <h1>bienvenue sur le site BTP SARl</h1>
     <v-row>
+      <h1 class="mx-auto">bienvenue sur le site BTP SARl</h1>
       <v-col cols="12" class="mt-15">
         <v-carousel
           class="hidden-xs-only"
@@ -18,15 +18,18 @@
         </v-carousel>
       </v-col>
     </v-row>
+    <AboutIndex />
     <ServiceIndex />
   </v-container>
 </template>
 
 <script>
+import AboutIndex from '../components/AboutIndex'
 import ServiceIndex from '../components/ServiceIndex'
 export default {
   name: 'IndexPage',
   components: {
+    AboutIndex,
     ServiceIndex,
   },
 

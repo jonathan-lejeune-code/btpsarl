@@ -6,6 +6,7 @@
       :clipped="clipped"
       fixed
       app
+      color="blue-grey darken-2"
     >
       <v-list>
         <v-list-item
@@ -16,16 +17,16 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon class="white--text">{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
+            <v-list-item-title class="white--text" v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
     <v-app-bar color="blue-grey darken-2" :clipped-left="clipped" fixed app>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title class="white--text" v-text="title" />
       <v-spacer />
     </v-app-bar>
@@ -54,6 +55,11 @@ export default {
           icon: 'mdi-apps',
           title: 'Accueil',
           to: '/',
+        },
+        {
+          icon: 'mdi-home-circle',
+          title: 'Présentation',
+          to: '/about',
         },
         {
           icon: 'mdi-picture-in-picture-top-right',
