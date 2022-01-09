@@ -1,7 +1,7 @@
 <template>
   <v-container class="service bg-light section text-xs-center">
     <div class="section-head">
-      <h2 class="section-title">Service</h2>
+      <h2 class="section-title">Nos Service</h2>
       <div class="section-meta">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
         exercitationem dignissimos animi similique, eveniet voluptates.
@@ -66,8 +66,10 @@ export default {
 <style scoped>
 h2 {
   background-color: orange;
-  width: 86px;
+  border-radius: 10px;
+  width: 150px;
   margin: 10px auto;
+  padding-left: 10px;
 }
 .section-meta {
   margin-bottom: 10px;
