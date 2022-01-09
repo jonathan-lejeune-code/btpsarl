@@ -28,8 +28,10 @@
     </v-navigation-drawer>
     <v-app-bar color="blue-grey darken-2" :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
-      <v-toolbar-title class="white--text" v-text="title" />
-      <v-spacer />
+      <router-link to="/">
+        <v-toolbar-title class="white--text" v-text="title" />
+        <v-spacer />
+      </router-link>
     </v-app-bar>
     <v-main>
       <v-container>
