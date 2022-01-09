@@ -23,7 +23,7 @@
           aliquam, impedit. Blanditiis ab explicabo quidem saepe animi veniam,
           impedit ex sunt id quia vel totam?
         </div>
-        <v-btn round color="orange" dark class="mt-4 mx-0" to="/about"
+        <v-btn rounded color="orange" dark class="mt-4 mx-0" to="/about"
           >Lire la suite</v-btn
         >
       </v-flex>

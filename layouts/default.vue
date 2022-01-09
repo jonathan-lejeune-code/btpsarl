@@ -5,6 +5,7 @@
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
+      temporary
       app
       color="blue-grey darken-2"
     >
