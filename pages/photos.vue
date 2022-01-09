@@ -2,12 +2,12 @@
   <v-app>
     <h2 class="section-title" bloc>Photos</h2>
     <v-row>
-      <v-col v-for="n in 50" :key="n" class="d-flex child-flex" cols="2">
+      <v-col v-for="n in 25" :key="n" class="d-flex child-flex" cols="2">
         <v-img
-          :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-          :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
+          :src="`https://www.marc-chazelle.fr/images/entreprise/chantier-7.jpg`"
           aspect-ratio="1"
           class="grey lighten-2"
+          @click.stop="dialog = true"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">
@@ -19,6 +19,22 @@
           </template>
         </v-img>
       </v-col>
+      <v-dialog v-model="dialog" max-width="720" isDark="">
+        <v-card>
+          <v-img
+            :src="`https://www.marc-chazelle.fr/images/entreprise/chantier-7.jpg`"
+            max-width="720"
+            height="auto"
+          ></v-img>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+
+            <v-btn @click="dialog = false" color="red darken-1" text>
+              Close
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-row>
   </v-app>
 </template>
@@ -28,6 +44,7 @@ export default {
   name: 'PhotosPage',
   data() {
     return {
+      dialog: false,
       items: [
         // {
         //   id: 1,
