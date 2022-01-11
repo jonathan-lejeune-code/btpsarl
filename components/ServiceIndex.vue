@@ -3,6 +3,9 @@
     <div class="section-head">
       <h2 class="section-title">Nos Service</h2>
       <div class="section-meta">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat totam
+        quod modi eveniet nobis iusto fugit minus repellendus obcaecati! Sint
+        impedit aliquam tempora obcaecati quo fugiat saepe cumque. Quia, libero.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
         exercitationem dignissimos animi similique, eveniet voluptates.
       </div>
