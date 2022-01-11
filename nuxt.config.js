@@ -18,7 +18,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: "site vitrine de l'entreprise 2A BTP sarl basé a sannois dans le 95 "
+        content: "site vitrine pour une entreprise de BTP  "
       },
       {
         name: 'format-detection',
